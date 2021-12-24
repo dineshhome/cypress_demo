@@ -1,0 +1,162 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-22T10:18:16.372Z",
+    "end": "2021-12-22T10:27:11.989Z",
+    "duration": 63266,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7d96bf20-c6ff-4551-a30b-9c53466c8ee2",
+      "title": "",
+      "fullFile": "cypress/integration/Home-Page.spec.js",
+      "file": "cypress/integration/Home-Page.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1837818e-34ed-4f95-8209-1f5fe63d8166",
+          "title": "Dinesh Dhiman - SDET Assignment - Fiserv",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify search engine result",
+              "fullTitle": "Dinesh Dhiman - SDET Assignment - Fiserv verify search engine result",
+              "timedOut": null,
+              "duration": 31318,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.enterSearchText('terms{enter}').verifyResult('term');\nhomePage.takeScreenShot('Search-Result');",
+              "err": {},
+              "uuid": "8a3c1001-09c3-497a-939b-8da66ef47d7d",
+              "parentUUID": "1837818e-34ed-4f95-8209-1f5fe63d8166",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8a3c1001-09c3-497a-939b-8da66ef47d7d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 31318,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "da9cbec4-fa1d-44e7-af0b-d9f9673ccfca",
+      "title": "",
+      "fullFile": "cypress/integration/Home-Page.spec.js",
+      "file": "cypress/integration/Home-Page.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "aee4a251-bc21-4c1f-a948-23145ffb8faa",
+          "title": "Dinesh Dhiman - SDET Assignment - Fiserv",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify search engine result",
+              "fullTitle": "Dinesh Dhiman - SDET Assignment - Fiserv verify search engine result",
+              "timedOut": null,
+              "duration": 31948,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.enterSearchText('terms{enter}').verifyResult('term');\nhomePage.takeScreenShot('Search-Result');",
+              "err": {},
+              "uuid": "a65b08e5-8f99-44cc-a681-bbbcc36487ac",
+              "parentUUID": "aee4a251-bc21-4c1f-a948-23145ffb8faa",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a65b08e5-8f99-44cc-a681-bbbcc36487ac"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 31948,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

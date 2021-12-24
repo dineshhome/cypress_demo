@@ -1,0 +1,15 @@
+{
+    "defaultCommandTimeout": 20000,
+    "pageLoadTimeout": 90000,
+    "taskTimeout": 90000,
+    "execTimeout": 90000,
+    "requestTimeout": 90000,
+    "responseTimeout": 90000,
+    "reporter": "/Users/dinesh/Documents/code/Dinesh-Local/node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+  }
+  
